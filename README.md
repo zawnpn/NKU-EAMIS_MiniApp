@@ -10,11 +10,11 @@
 
 ## Demo
 > 登录页面
-> ![login][https://github.com/zawnpn/NKU-EAMIS_MiniApp/blob/master/pic/login.jpg]
+> ![login](./pic/login.jpg)
 
 > 课表页面
-> ![table][https://github.com/zawnpn/NKU-EAMIS_MiniApp/blob/master/pic/table.jpg]
+> ![table](./pic/table.jpg)
 
 ## 使用
- - 扫描小程序码：![minicode][https://github.com/zawnpn/NKU-EAMIS_MiniApp/blob/master/pic/mincode.jpg]
+ - 扫描小程序码：![minicode](./pic/mincode.jpg)
  - 或者：直接在微信小程序中搜索“南开教务助手”
