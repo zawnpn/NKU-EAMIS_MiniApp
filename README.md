@@ -10,13 +10,13 @@
 
 ## Demo
  - 登录页面
-> <div align=center><img width="320" src="https://github.com/zawnpn/NKU-EAMIS_MiniApp/blob/master/pic/login.jpg"/></div>
+<img width="320" src="./pic/login.jpg"/>
 
  - 课表页面
-> <div align=center><img width="320" src="./pic/login.jpg"/></div>
+<img width="320" src="./pic/table.jpg"/>
 
 ## 使用
  - 扫描小程序码：
-> <div align=center><img width="240" src="./pic/login.jpg"/></div>
+<img width="240" src="./pic/minicode.jpg"/>
 
  - 或者：直接在微信小程序中搜索“南开教务助手”
