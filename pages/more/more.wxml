@@ -1,0 +1,26 @@
+<view class='index-hd'>
+  <image class="userinfo-avatar" src="/imgs/nku.png"></image>
+</view>
+
+<view class="index-bd">
+  <view class="kind-list">
+    <view class="kind-list-item">
+      <view class="kind-list-item-bd-show">
+        <view class="navigator-box-show">
+          <navigator url="/pages/exams/exams" class="navigator">
+            <view class="navigator-text">考试安排查询</view>
+            <view class="navigator-arrow"></view>
+          </navigator>
+          <navigator url="/pages/gradecalc/gradecalc" class="navigator">
+            <view class="navigator-text">学分绩计算</view>
+            <view class="navigator-arrow"></view>
+          </navigator>
+          <navigator url="/pages/about/about" class="navigator">
+            <view class="navigator-text">关于</view>
+            <view class="navigator-arrow"></view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

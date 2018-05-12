@@ -1,0 +1,16 @@
+@import "/common/index.wxss";
+.userinfo-avatar {
+  border-radius: 128rpx;
+  width: 256rpx;
+  height: 256rpx;
+}
+.page-section-title{
+  font-size: 32rpx;
+  color:#353535
+}
+.about-content{
+  margin-left:32rpx;
+  margin-right:32rpx;
+  font-size: 24rpx;
+  color: #888;
+}

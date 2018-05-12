@@ -1,0 +1,22 @@
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">课程</view>
+    <view class="th-s">成绩</view>
+    <view class="th-s">学分</view>
+  </view>
+  <block wx:for="{{gradeData}}" wx:key="course">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.course}}</view>
+      <view class="td-s">{{item.score}}</view>
+      <view class="td-s">{{item.weight}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.course}}</view>
+      <view class="td-s">{{item.score}}</view>
+      <view class="td-s">{{item.weight}}</view>
+    </view>
+  </block>
+</view>
+<view class="com-widget-refresh">
+       <view class="icon-refresh" bindtap="refreshGrade"><text decode='{{true}}'>&nbsp;</text></view> 
+</view>

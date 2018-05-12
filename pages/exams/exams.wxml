@@ -1,0 +1,25 @@
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">课程</view>
+    <view class="th">日期</view>
+    <view class="th">时间</view>
+    <view class="th">地点</view>
+  </view>
+  <block wx:for="{{examData}}" wx:key="course">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td"><view class="smalltext">{{item.course}}</view></view>
+      <view class="td"><view class="smalltext">{{item.date}}</view></view>
+      <view class="td"><view class="smalltext">{{item.time}}</view></view>
+      <view class="td"><view class="smalltext">{{item.room}}</view></view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td"><view class="smalltext">{{item.course}}</view></view>
+      <view class="td"><view class="smalltext">{{item.date}}</view></view>
+      <view class="td"><view class="smalltext">{{item.time}}</view></view>
+      <view class="td"><view class="smalltext">{{item.room}}</view></view>
+    </view>
+  </block>
+</view>
+<view class="com-widget-refresh">
+       <view class="icon-refresh" bindtap="refreshExams"><text decode='{{true}}'>&nbsp;</text></view> 
+</view>

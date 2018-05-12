@@ -1,0 +1,15 @@
+@import "/common/lib/weui.wxss";
+
+.checkbox{
+  margin-right: 20rpx;
+}
+.text-box{
+  margin-bottom: 70rpx;
+  padding: 40rpx 40rpx;
+  display: flex;
+  min-height: 100rpx;
+  background-color: #FFFFFF;
+  font-size: 30rpx;
+  color: #353535;
+  line-height: 2em;
+}

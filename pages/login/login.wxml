@@ -1,0 +1,34 @@
+<view class="container">
+  <form catchsubmit="formSubmit" catchreset="formReset"> 
+    <view class="page-body">
+      <view class="page-section">
+        <view class="page-body-info" style="height:{{infoHeight}}rpx;">
+          <image class="userinfo-avatar" src="/imgs/nku.png"></image>
+           <text class="weui-cells__title" hidden="{{!loginStatus}}">姓名：{{name}}</text> 
+           <text class="weui-cells__title" hidden="{{!loginStatus}}">学院：{{school}}</text> 
+           <text class="weui-cells__title" hidden="{{!loginStatus}}">专业：{{major}}</text>  
+        </view>
+      </view>
+      <view class="page-section">
+        <view class="weui-cells__title" hidden="{{loginStatus}}">学号</view>
+        <view class="weui-cells weui-cells_after-title" hidden="{{loginStatus}}">
+          <view class="weui-cell weui-cell_input">
+            <input class="weui-input" type="number" placeholder="输入学号" id="username" value="{{inputs['username']}}" bindinput="inputChange" />
+          </view>
+        </view>
+      </view>
+      <view class="page-section">
+        <view class="weui-cells__title" hidden="{{loginStatus}}">密码</view>
+        <view class="weui-cells weui-cells_after-title" hidden="{{loginStatus}}">
+          <view class="weui-cell weui-cell_input">
+            <input class="weui-input" password type="text" placeholder="输入密码" id="password" value="{{inputs['username']}}" bindinput="inputChange" />
+          </view>
+        </view>
+      </view>
+      <view class="btn-area">
+        <button type="primary" formType="submit" hidden="{{loginStatus}}">登录</button>
+        <button type="warn" plain formType="reset">注销</button>
+      </view>
+    </view>
+  </form>
+</view>

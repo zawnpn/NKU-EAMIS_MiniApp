@@ -1,0 +1,26 @@
+<view class="container">
+  <view class='index-hd'>
+    <image class="userinfo-avatar" src="/imgs/nku.png"></image>
+  </view>
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-title">1.关于本小程序</view>
+      <view class='about-content'>南开大学教务系统第三方辅助工具</view>
+    </view>
+
+    <view class="page-section">
+      <view class="page-section-title">2.数据安全性</view>
+      <view class='about-content'><text>数据来源基于南开大学教务系统，使用HTTPS传输数据，保护交换数据的隐私与完整性。\r\n获得的数据仅存储于手机本地，如需删除数据，点击首页的"注销"按钮即可。</text></view>
+    </view>
+    <view class="page-section">
+      <view class="page-section-title">3.提交反馈</view>
+      <view class='about-content'><text>个人能力有限，存在bug在所难免，欢迎点击下方的气泡框提交使用反馈。</text></view>
+    </view>
+    <view class="page-body-wrapper">
+      <view class="page-body-line">
+        <contact-button size="40" session-from="weapp"></contact-button>
+      </view>
+    </view>
+  </view>
+
+</view>

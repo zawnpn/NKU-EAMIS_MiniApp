@@ -1,0 +1,6 @@
+@import "/common/index.wxss";
+.userinfo-avatar {
+  border-radius: 128rpx;
+  width: 256rpx;
+  height: 256rpx;
+}

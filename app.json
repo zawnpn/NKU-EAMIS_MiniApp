@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/more/more",
+    "pages/about/about",
+    "pages/grades/grades",
+    "pages/courses/courses",
+    "pages/exams/exams",
+    "pages/semester/semester",
+    "pages/gradecalc/gradecalc"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "南开教务助手",
+    "navigationBarTextStyle": "black",
+    "disableScroll": true
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/login/login",
+        "text": "登录",
+        "iconPath": "/imgs/login.png",
+        "selectedIconPath": "/imgs/login_s.png"
+      },
+      {
+        "pagePath": "pages/courses/courses",
+        "text": "课表",
+        "iconPath": "/imgs/courses.png",
+        "selectedIconPath": "/imgs/courses_s.png"
+      },
+      {
+        "pagePath": "pages/grades/grades",
+        "text": "成绩",
+        "iconPath": "/imgs/grades.png",
+        "selectedIconPath": "/imgs/grades_s.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多",
+        "iconPath": "/imgs/more.png",
+        "selectedIconPath": "/imgs/more_s.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000
+  }
+}

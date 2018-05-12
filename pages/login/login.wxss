@@ -1,0 +1,27 @@
+@import "/common/lib/weui.wxss";
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+.btn-area{
+  margin-top: 60rpx;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30rpx;
+  position: fixed;
+  bottom: 0;
+}
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.page-body-info {
+  padding-bottom: 0;
+  height: 320rpx;
+   background-color: #F8F8F8; 
+}
+.userinfo-avatar {
+  border-radius: 128rpx;
+  width: 256rpx;
+  height: 256rpx;
+}

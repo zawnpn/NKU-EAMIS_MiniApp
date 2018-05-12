@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-title">选择需要计算的课程类别</view>
+      <view class="weui-cells weui-cells_after-title">
+        <checkbox-group bindchange="checkboxChange">
+          <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+            <view class="weui-cell__hd">
+              <checkbox value="{{item.value}}" checked="{{item.checked}}"/>
+            </view>
+            <view class="weui-cell__bd">{{item.name}}</view>
+          </label>
+        </checkbox-group>
+      </view>
+      <view style="margin-left:32rpx;margin-right:32rpx;font-size: 20rpx;color: #888;">注:部分专业(如伯苓班)没有"院系公共必修课(B类课)",计算学分绩时不要点选相应的选择框</view>
+    </view>
+    <view class="page-section page-section-spacing">
+      <view class="page-section-title">计算结果：</view>
+      <view class="text-box">
+        <text>学分绩：{{avgScore}}\n总学分：{{total}}</text>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button type="primary" bindtap='bindConfirm'>确定</button>
+    </view>
+  </view>
+</view>
