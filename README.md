@@ -5,7 +5,8 @@
 一款便于使用教务系统的微信小程序
 
 ## 部署
-由于教务系统没有https协议，因此需要额外使用中间服务器来进行数据抓取工作
+由于教务系统没有https协议，不满足微信小程序的审核要求，因此需要额外使用中间服务器来进行数据抓取工作
+
 服务端代码见[NKU-EAMIS_Server](https://github.com/zawnpn/NKU-EAMIS_Server)
 
 ## Demo
