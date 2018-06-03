@@ -23,3 +23,6 @@
 <img width="240" src="./pic/minicode.jpg"/>
 
  - 或者：直接在微信小程序中搜索“南开教务助手”
+ 
+## 详细信息
+见[NKU-EAMIS_MiniApp(南开大学教务助手小程序)](http://www.oncemath.com/eamis-miniapp.html)
