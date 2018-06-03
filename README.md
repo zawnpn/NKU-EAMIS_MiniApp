@@ -16,6 +16,8 @@
  - 课表页面
 <img width="320" src="./pic/table.jpg"/>
 
+ - 此外，还有成绩查询、学分绩计算等功能
+
 ## 使用
  - 扫描小程序码：
 <img width="240" src="./pic/minicode.jpg"/>
