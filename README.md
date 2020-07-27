@@ -33,4 +33,4 @@
  - 或者：直接在微信小程序中搜索“南开教务助手”
  
 ## 详细信息
-见 [NKU-EAMIS_MiniApp(南开大学教务助手小程序)](https://www.zhangwp.com/share/eamis-miniapp/)
+见 [NKU-EAMIS_MiniApp(南开大学教务助手小程序)](https://www.zhangwp.com/projects/eamis-miniapp/)
